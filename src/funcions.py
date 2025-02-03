@@ -1,7 +1,7 @@
 import math
 
 
-def es_primo(n):
+def eSPriMo(n):
     if n < 2:
         return False
     for i in range(2, math.floor(math.sqrt(n) + 1)):
